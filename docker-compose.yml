@@ -26,6 +26,9 @@ services:
     environment:
       - DB_TYPE=redis
       - REDIS_URL=redis://redis:6379
+      - MONGO_URL=mongodb://mongodb:27017
+      - MONGO_TIMEOUT=30
+      - MONGO_DB=shortener
     depends_on:
       - redis
 
