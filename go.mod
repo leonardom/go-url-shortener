@@ -3,6 +3,7 @@ module github.com/leonardom/go-url-shortener
 go 1.19
 
 require (
+	github.com/go-chi/chi v1.5.4 // indirect
 	github.com/go-redis/redis v6.15.9+incompatible // indirect
 	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
